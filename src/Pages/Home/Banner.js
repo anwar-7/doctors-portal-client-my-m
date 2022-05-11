@@ -1,10 +1,11 @@
 import React from 'react';
 import chair from '../../assets/images/chair.png';
 import bg from '../../assets/images/bg.png';
+import PrimaryButton from '../Shared/PrimaryButton';
 const Banner = () => {
   return (
     <div
-      className="hero min-h-screen px-12"
+      className="hero min-h-screen"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundPosition: 'center',
@@ -21,9 +22,7 @@ const Banner = () => {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">
-            Get Started
-          </button>
+          <PrimaryButton>Get Started</PrimaryButton>
         </div>
       </div>
     </div>
